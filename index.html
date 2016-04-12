@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <script src='javascripts/jquery.js'></script>
+	<script src='javascripts/app.js'></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANhTf8CO488vMp71-mex5ffIqacLtyNZA"></script>
+	<script type="text/javascript" src="javascripts/gmaps.js"></script>
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+  </head>
+  <body>
+    <div id="places"></div>
+    <div id="map"></div>
+   	<div class="container">
+		<form class="form-inline" id="form">
+			<h1>Where You At?</h1>
+			<div class="form-group">
+				<input type="text" id="lat" class="form-control" size="40" placeholder="Lattitude" value="">
+				<input type="text" id="lng" class="form-control" size="40" placeholder="Longitude" value="">
+				<input type="text" id="food" class="form-control" size="40" placeholder="Type Food You Want" value="">
+				<input type="submit" class="btn-primary" value ="Submit">
+			</div>
+
+		</form>
+	</div>
+  </body>
+</html>
